@@ -1,0 +1,4973 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\dependencies\\chainlink\\AggregatorInterface.sol": {
+      "lastModificationDate": 1689259484067,
+      "contentHash": "2000e64502d484bef3209f6aba0a6879",
+      "sourceName": "contracts/dependencies/chainlink/AggregatorInterface.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "AggregatorInterface"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\misc\\PekoOracle.sol": {
+      "lastModificationDate": 1689259484082,
+      "contentHash": "2bd85b126190865cb065db6dd2a7ac81",
+      "sourceName": "contracts/misc/PekoOracle.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../dependencies/chainlink/AggregatorInterface.sol",
+        "../protocol/libraries/helpers/Errors.sol",
+        "../interfaces/IACLManager.sol",
+        "../interfaces/IPoolAddressesProvider.sol",
+        "../interfaces/IPriceOracleGetter.sol",
+        "../interfaces/IPekoOracle.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "PekoOracle"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\protocol\\libraries\\helpers\\Errors.sol": {
+      "lastModificationDate": 1689259484094,
+      "contentHash": "6b4d296d91212b5e423220502143ae20",
+      "sourceName": "contracts/protocol/libraries/helpers/Errors.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Errors"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\interfaces\\IACLManager.sol": {
+      "lastModificationDate": 1689259484076,
+      "contentHash": "dbb5498b804fde1b461e95ee93a42a4d",
+      "sourceName": "contracts/interfaces/IACLManager.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IPoolAddressesProvider.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IACLManager"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\interfaces\\IPoolAddressesProvider.sol": {
+      "lastModificationDate": 1689259484079,
+      "contentHash": "19b3f904af2f493c4d0b0fb5247c3cf9",
+      "sourceName": "contracts/interfaces/IPoolAddressesProvider.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IPoolAddressesProvider"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\interfaces\\IPriceOracleGetter.sol": {
+      "lastModificationDate": 1689259484080,
+      "contentHash": "9e6f1609571f6e371e9352d6cfa2f26d",
+      "sourceName": "contracts/interfaces/IPriceOracleGetter.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IPriceOracleGetter"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\interfaces\\IPekoOracle.sol": {
+      "lastModificationDate": 1689259484079,
+      "contentHash": "73b52fe9c04aa53d2c77045c67418a1f",
+      "sourceName": "contracts/interfaces/IPekoOracle.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IPriceOracleGetter.sol",
+        "./IPoolAddressesProvider.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IPekoOracle"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\protocol\\tokenization\\base\\IncentivizedERC20.sol": {
+      "lastModificationDate": 1689259484104,
+      "contentHash": "5c1e30a4b742056da0b4b58907541a26",
+      "sourceName": "contracts/protocol/tokenization/base/IncentivizedERC20.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../../dependencies/openzeppelin/contracts/Context.sol",
+        "../../../dependencies/openzeppelin/contracts/IERC20.sol",
+        "../../../dependencies/openzeppelin/contracts/IERC20Detailed.sol",
+        "../../../dependencies/openzeppelin/contracts/SafeCast.sol",
+        "../../libraries/math/WadRayMath.sol",
+        "../../libraries/helpers/Errors.sol",
+        "../../../interfaces/IPekoIncentivesController.sol",
+        "../../../interfaces/IPoolAddressesProvider.sol",
+        "../../../interfaces/IPool.sol",
+        "../../../interfaces/IACLManager.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "IncentivizedERC20"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\dependencies\\openzeppelin\\contracts\\Context.sol": {
+      "lastModificationDate": 1689259484068,
+      "contentHash": "7b99d780c200184769073f506707ded0",
+      "sourceName": "contracts/dependencies/openzeppelin/contracts/Context.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\dependencies\\openzeppelin\\contracts\\IERC20.sol": {
+      "lastModificationDate": 1689259484070,
+      "contentHash": "873ca3be83c46230f9e37bba3d36f910",
+      "sourceName": "contracts/dependencies/openzeppelin/contracts/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\dependencies\\openzeppelin\\contracts\\IERC20Detailed.sol": {
+      "lastModificationDate": 1689259484070,
+      "contentHash": "61e0081ceb5e6058712020594458de91",
+      "sourceName": "contracts/dependencies/openzeppelin/contracts/IERC20Detailed.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC20.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "IERC20Detailed"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\dependencies\\openzeppelin\\contracts\\SafeCast.sol": {
+      "lastModificationDate": 1689259484070,
+      "contentHash": "a3749de6fa72632b023eae2fe39b9021",
+      "sourceName": "contracts/dependencies/openzeppelin/contracts/SafeCast.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "SafeCast"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\protocol\\libraries\\math\\WadRayMath.sol": {
+      "lastModificationDate": 1689259484099,
+      "contentHash": "37c03a50c21f0b82c4dfa37765f387a2",
+      "sourceName": "contracts/protocol/libraries/math/WadRayMath.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "WadRayMath"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\interfaces\\IPekoIncentivesController.sol": {
+      "lastModificationDate": 1689259484078,
+      "contentHash": "65ecba8841d91de762a8f6995c43abcf",
+      "sourceName": "contracts/interfaces/IPekoIncentivesController.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IPekoIncentivesController"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\interfaces\\IPool.sol": {
+      "lastModificationDate": 1689259484079,
+      "contentHash": "fd0becd4c7521ac05fd83ca0321ac2f4",
+      "sourceName": "contracts/interfaces/IPool.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IPoolAddressesProvider.sol",
+        "../protocol/libraries/types/DataTypes.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IPool"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\protocol\\libraries\\types\\DataTypes.sol": {
+      "lastModificationDate": 1689259484100,
+      "contentHash": "bbf7386ed4f6f471521c27e64d97892f",
+      "sourceName": "contracts/protocol/libraries/types/DataTypes.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "DataTypes"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\protocol\\tokenization\\StableDebtToken.sol": {
+      "lastModificationDate": 1689259484103,
+      "contentHash": "83ca88aea0868c7261b13d549f583f9b",
+      "sourceName": "contracts/protocol/tokenization/StableDebtToken.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../dependencies/openzeppelin/contracts/IERC20.sol",
+        "../libraries/peko-upgradeability/VersionedInitializable.sol",
+        "../libraries/math/MathUtils.sol",
+        "../libraries/math/WadRayMath.sol",
+        "../libraries/helpers/Errors.sol",
+        "../../interfaces/IPekoIncentivesController.sol",
+        "../../interfaces/IInitializableDebtToken.sol",
+        "../../interfaces/IStableDebtToken.sol",
+        "../../interfaces/IPool.sol",
+        "./base/EIP712Base.sol",
+        "./base/DebtTokenBase.sol",
+        "./base/IncentivizedERC20.sol",
+        "../../dependencies/openzeppelin/contracts/SafeCast.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "StableDebtToken"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\protocol\\libraries\\peko-upgradeability\\VersionedInitializable.sol": {
+      "lastModificationDate": 1689259484100,
+      "contentHash": "e73df0982b11a04e62d7e08d54370d6b",
+      "sourceName": "contracts/protocol/libraries/peko-upgradeability/VersionedInitializable.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "VersionedInitializable"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\protocol\\libraries\\math\\MathUtils.sol": {
+      "lastModificationDate": 1689259484098,
+      "contentHash": "146f2896bf67bf5404e4c763c2c20dd9",
+      "sourceName": "contracts/protocol/libraries/math/MathUtils.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./WadRayMath.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "MathUtils"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\interfaces\\IInitializableDebtToken.sol": {
+      "lastModificationDate": 1689259484078,
+      "contentHash": "2c2f1a12ff47330dbcfe704f520f1353",
+      "sourceName": "contracts/interfaces/IInitializableDebtToken.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IPekoIncentivesController.sol",
+        "./IPool.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IInitializableDebtToken"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\interfaces\\IStableDebtToken.sol": {
+      "lastModificationDate": 1689259484082,
+      "contentHash": "6477f1c572fbc5b49e5229c68451730d",
+      "sourceName": "contracts/interfaces/IStableDebtToken.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IInitializableDebtToken.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IStableDebtToken"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\protocol\\tokenization\\base\\EIP712Base.sol": {
+      "lastModificationDate": 1689259484104,
+      "contentHash": "4fc9c3babfb837494265833e2f66129e",
+      "sourceName": "contracts/protocol/tokenization/base/EIP712Base.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "EIP712Base"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\protocol\\tokenization\\base\\DebtTokenBase.sol": {
+      "lastModificationDate": 1689259484103,
+      "contentHash": "cd293ec317fd12948baba808cc524dd5",
+      "sourceName": "contracts/protocol/tokenization/base/DebtTokenBase.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../../dependencies/openzeppelin/contracts/Context.sol",
+        "../../libraries/helpers/Errors.sol",
+        "../../libraries/peko-upgradeability/VersionedInitializable.sol",
+        "../../../interfaces/ICreditDelegationToken.sol",
+        "./EIP712Base.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "DebtTokenBase"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\interfaces\\ICreditDelegationToken.sol": {
+      "lastModificationDate": 1689259484076,
+      "contentHash": "0d934480a5b06f3d66d02e176905a40d",
+      "sourceName": "contracts/interfaces/ICreditDelegationToken.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ICreditDelegationToken"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\protocol\\tokenization\\VariableDebtToken.sol": {
+      "lastModificationDate": 1689259484103,
+      "contentHash": "3c2f817b1983e20b62caab12d8df2560",
+      "sourceName": "contracts/protocol/tokenization/VariableDebtToken.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../dependencies/openzeppelin/contracts/IERC20.sol",
+        "../../dependencies/openzeppelin/contracts/SafeCast.sol",
+        "../libraries/peko-upgradeability/VersionedInitializable.sol",
+        "../libraries/math/WadRayMath.sol",
+        "../libraries/helpers/Errors.sol",
+        "../../interfaces/IPool.sol",
+        "../../interfaces/IPekoIncentivesController.sol",
+        "../../interfaces/IInitializableDebtToken.sol",
+        "../../interfaces/IVariableDebtToken.sol",
+        "./base/EIP712Base.sol",
+        "./base/DebtTokenBase.sol",
+        "./base/ScaledBalanceTokenBase.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "VariableDebtToken"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\interfaces\\IVariableDebtToken.sol": {
+      "lastModificationDate": 1689259484082,
+      "contentHash": "af7e97e1572acb3624fd9475b8097a7c",
+      "sourceName": "contracts/interfaces/IVariableDebtToken.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IScaledBalanceToken.sol",
+        "./IInitializableDebtToken.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IVariableDebtToken"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\protocol\\tokenization\\base\\ScaledBalanceTokenBase.sol": {
+      "lastModificationDate": 1689259484104,
+      "contentHash": "28630ddfb264d946fe02898e7c725b7f",
+      "sourceName": "contracts/protocol/tokenization/base/ScaledBalanceTokenBase.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../../dependencies/openzeppelin/contracts/SafeCast.sol",
+        "../../libraries/helpers/Errors.sol",
+        "../../libraries/math/WadRayMath.sol",
+        "../../../interfaces/IPool.sol",
+        "../../../interfaces/IScaledBalanceToken.sol",
+        "./MintableIncentivizedERC20.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "ScaledBalanceTokenBase"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\interfaces\\IScaledBalanceToken.sol": {
+      "lastModificationDate": 1689259484081,
+      "contentHash": "b209168dfb37d95e3dde89348b97f1be",
+      "sourceName": "contracts/interfaces/IScaledBalanceToken.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IScaledBalanceToken"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\protocol\\tokenization\\base\\MintableIncentivizedERC20.sol": {
+      "lastModificationDate": 1689259484104,
+      "contentHash": "3f2851fbae6f76c1d728f57ed88a68cd",
+      "sourceName": "contracts/protocol/tokenization/base/MintableIncentivizedERC20.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../../interfaces/IPekoIncentivesController.sol",
+        "../../../interfaces/IPool.sol",
+        "./IncentivizedERC20.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "MintableIncentivizedERC20"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\protocol\\tokenization\\DelegationAwareAToken.sol": {
+      "lastModificationDate": 1689259484103,
+      "contentHash": "0ce3a35d85737bec75159fc3570b6d52",
+      "sourceName": "contracts/protocol/tokenization/DelegationAwareAToken.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../interfaces/IPool.sol",
+        "../../interfaces/IDelegationToken.sol",
+        "./AToken.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "DelegationAwareAToken"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\interfaces\\IDelegationToken.sol": {
+      "lastModificationDate": 1689259484077,
+      "contentHash": "e99450ced7352c25e51b84ade54514d2",
+      "sourceName": "contracts/interfaces/IDelegationToken.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IDelegationToken"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\protocol\\tokenization\\AToken.sol": {
+      "lastModificationDate": 1689259484102,
+      "contentHash": "d4e38b8d689ebf3ee0a1a3b46103fc40",
+      "sourceName": "contracts/protocol/tokenization/AToken.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../dependencies/openzeppelin/contracts/IERC20.sol",
+        "../../dependencies/gnosis/contracts/GPv2SafeERC20.sol",
+        "../../dependencies/openzeppelin/contracts/SafeCast.sol",
+        "../libraries/peko-upgradeability/VersionedInitializable.sol",
+        "../libraries/helpers/Errors.sol",
+        "../libraries/math/WadRayMath.sol",
+        "../../interfaces/IPool.sol",
+        "../../interfaces/IAToken.sol",
+        "../../interfaces/IPekoIncentivesController.sol",
+        "../../interfaces/IInitializableAToken.sol",
+        "./base/ScaledBalanceTokenBase.sol",
+        "./base/IncentivizedERC20.sol",
+        "./base/EIP712Base.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "AToken"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\dependencies\\gnosis\\contracts\\GPv2SafeERC20.sol": {
+      "lastModificationDate": 1689259484067,
+      "contentHash": "974ef18f85403397a811ca2f107f5387",
+      "sourceName": "contracts/dependencies/gnosis/contracts/GPv2SafeERC20.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../openzeppelin/contracts/IERC20.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "GPv2SafeERC20"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\interfaces\\IAToken.sol": {
+      "lastModificationDate": 1689259484076,
+      "contentHash": "68286bb654fd1bb1f5b9475378bb2309",
+      "sourceName": "contracts/interfaces/IAToken.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../dependencies/openzeppelin/contracts/IERC20.sol",
+        "./IScaledBalanceToken.sol",
+        "./IInitializableAToken.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IAToken"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\interfaces\\IInitializableAToken.sol": {
+      "lastModificationDate": 1689259484078,
+      "contentHash": "7bee575e88bdbf6645d86d1ec77bda3f",
+      "sourceName": "contracts/interfaces/IInitializableAToken.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IPekoIncentivesController.sol",
+        "./IPool.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IInitializableAToken"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\protocol\\libraries\\logic\\ConfiguratorLogic.sol": {
+      "lastModificationDate": 1689259484095,
+      "contentHash": "24eff7ff5b1eafaa836462f692f8297d",
+      "sourceName": "contracts/protocol/libraries/logic/ConfiguratorLogic.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../../interfaces/IPool.sol",
+        "../../../interfaces/IInitializableAToken.sol",
+        "../../../interfaces/IInitializableDebtToken.sol",
+        "../peko-upgradeability/InitializableImmutableAdminUpgradeabilityProxy.sol",
+        "../configuration/ReserveConfiguration.sol",
+        "../types/DataTypes.sol",
+        "../types/ConfiguratorInputTypes.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "ConfiguratorLogic"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\protocol\\libraries\\peko-upgradeability\\InitializableImmutableAdminUpgradeabilityProxy.sol": {
+      "lastModificationDate": 1689259484100,
+      "contentHash": "7d97eda72200e97228b5f68db901ee02",
+      "sourceName": "contracts/protocol/libraries/peko-upgradeability/InitializableImmutableAdminUpgradeabilityProxy.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../../dependencies/openzeppelin/upgradeability/InitializableUpgradeabilityProxy.sol",
+        "../../../dependencies/openzeppelin/upgradeability/Proxy.sol",
+        "./BaseImmutableAdminUpgradeabilityProxy.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "InitializableImmutableAdminUpgradeabilityProxy"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\protocol\\libraries\\configuration\\ReserveConfiguration.sol": {
+      "lastModificationDate": 1689259484093,
+      "contentHash": "af41b3194e26e11dbe2cc1567b935ec1",
+      "sourceName": "contracts/protocol/libraries/configuration/ReserveConfiguration.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../helpers/Errors.sol",
+        "../types/DataTypes.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ReserveConfiguration"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\protocol\\libraries\\types\\ConfiguratorInputTypes.sol": {
+      "lastModificationDate": 1689259484100,
+      "contentHash": "3d18a4215b35487196d49c1668feee62",
+      "sourceName": "contracts/protocol/libraries/types/ConfiguratorInputTypes.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ConfiguratorInputTypes"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\dependencies\\openzeppelin\\upgradeability\\InitializableUpgradeabilityProxy.sol": {
+      "lastModificationDate": 1689259484073,
+      "contentHash": "3c9be1fa9154b0c64dbbe97277baf3a7",
+      "sourceName": "contracts/dependencies/openzeppelin/upgradeability/InitializableUpgradeabilityProxy.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./BaseUpgradeabilityProxy.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "InitializableUpgradeabilityProxy"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\dependencies\\openzeppelin\\upgradeability\\Proxy.sol": {
+      "lastModificationDate": 1689259484073,
+      "contentHash": "48f57a6ae130e4d7de3840a7bf575f02",
+      "sourceName": "contracts/dependencies/openzeppelin/upgradeability/Proxy.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "Proxy"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\protocol\\libraries\\peko-upgradeability\\BaseImmutableAdminUpgradeabilityProxy.sol": {
+      "lastModificationDate": 1689259484099,
+      "contentHash": "e4449a26fde22e8d859e8090aa8ae81b",
+      "sourceName": "contracts/protocol/libraries/peko-upgradeability/BaseImmutableAdminUpgradeabilityProxy.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../../dependencies/openzeppelin/upgradeability/BaseUpgradeabilityProxy.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "BaseImmutableAdminUpgradeabilityProxy"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\dependencies\\openzeppelin\\upgradeability\\BaseUpgradeabilityProxy.sol": {
+      "lastModificationDate": 1689259484072,
+      "contentHash": "3c168b163eda57e0d321addb6726bf50",
+      "sourceName": "contracts/dependencies/openzeppelin/upgradeability/BaseUpgradeabilityProxy.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Proxy.sol",
+        "../contracts/Address.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "BaseUpgradeabilityProxy"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\dependencies\\openzeppelin\\contracts\\Address.sol": {
+      "lastModificationDate": 1689259484068,
+      "contentHash": "48f433529e15d3eaf25325d39b3c6a29",
+      "sourceName": "contracts/dependencies/openzeppelin/contracts/Address.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Address"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\protocol\\pool\\PoolConfigurator.sol": {
+      "lastModificationDate": 1689259484102,
+      "contentHash": "0b8fc40f07eb5ed7579017e77851f4d2",
+      "sourceName": "contracts/protocol/pool/PoolConfigurator.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../libraries/peko-upgradeability/VersionedInitializable.sol",
+        "../libraries/configuration/ReserveConfiguration.sol",
+        "../../interfaces/IPoolAddressesProvider.sol",
+        "../libraries/helpers/Errors.sol",
+        "../libraries/math/PercentageMath.sol",
+        "../libraries/types/DataTypes.sol",
+        "../libraries/logic/ConfiguratorLogic.sol",
+        "../libraries/types/ConfiguratorInputTypes.sol",
+        "../../interfaces/IPoolConfigurator.sol",
+        "../../interfaces/IPool.sol",
+        "../../interfaces/IACLManager.sol",
+        "../../interfaces/IPoolDataProvider.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "PoolConfigurator"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\protocol\\libraries\\math\\PercentageMath.sol": {
+      "lastModificationDate": 1689259484099,
+      "contentHash": "c512e73f508fa61b159a639986bf4e23",
+      "sourceName": "contracts/protocol/libraries/math/PercentageMath.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "PercentageMath"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\interfaces\\IPoolConfigurator.sol": {
+      "lastModificationDate": 1689259484080,
+      "contentHash": "329f92df845d8942268f186cd5b76da5",
+      "sourceName": "contracts/interfaces/IPoolConfigurator.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../protocol/libraries/types/ConfiguratorInputTypes.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IPoolConfigurator"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\interfaces\\IPoolDataProvider.sol": {
+      "lastModificationDate": 1689259484080,
+      "contentHash": "720b24732f86627063866ba5b8c37129",
+      "sourceName": "contracts/interfaces/IPoolDataProvider.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IPoolAddressesProvider.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IPoolDataProvider"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\misc\\PekoProtocolDataProvider.sol": {
+      "lastModificationDate": 1689259484083,
+      "contentHash": "fb8138a8e3d5a463e84fc4cac3cc44c0",
+      "sourceName": "contracts/misc/PekoProtocolDataProvider.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../dependencies/openzeppelin/contracts/IERC20Detailed.sol",
+        "../protocol/libraries/configuration/ReserveConfiguration.sol",
+        "../protocol/libraries/configuration/UserConfiguration.sol",
+        "../protocol/libraries/types/DataTypes.sol",
+        "../protocol/libraries/math/WadRayMath.sol",
+        "../interfaces/IPoolAddressesProvider.sol",
+        "../interfaces/IStableDebtToken.sol",
+        "../interfaces/IVariableDebtToken.sol",
+        "../interfaces/IPool.sol",
+        "../interfaces/IPoolDataProvider.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "PekoProtocolDataProvider"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\protocol\\libraries\\configuration\\UserConfiguration.sol": {
+      "lastModificationDate": 1689259484093,
+      "contentHash": "f43a60971f0c235768dc225303b2e21c",
+      "sourceName": "contracts/protocol/libraries/configuration/UserConfiguration.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../helpers/Errors.sol",
+        "../types/DataTypes.sol",
+        "./ReserveConfiguration.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "UserConfiguration"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\protocol\\libraries\\logic\\ReserveLogic.sol": {
+      "lastModificationDate": 1689259484097,
+      "contentHash": "3cbee6680a9a2a08b097d3e147f22371",
+      "sourceName": "contracts/protocol/libraries/logic/ReserveLogic.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../../dependencies/openzeppelin/contracts/IERC20.sol",
+        "../../../dependencies/gnosis/contracts/GPv2SafeERC20.sol",
+        "../../../interfaces/IStableDebtToken.sol",
+        "../../../interfaces/IVariableDebtToken.sol",
+        "../../../interfaces/IReserveInterestRateStrategy.sol",
+        "../configuration/ReserveConfiguration.sol",
+        "../math/MathUtils.sol",
+        "../math/WadRayMath.sol",
+        "../math/PercentageMath.sol",
+        "../helpers/Errors.sol",
+        "../types/DataTypes.sol",
+        "../../../dependencies/openzeppelin/contracts/SafeCast.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "ReserveLogic"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\interfaces\\IReserveInterestRateStrategy.sol": {
+      "lastModificationDate": 1689259484081,
+      "contentHash": "a9ab1b7c5bf64c23d9dcf0fd72ac24c7",
+      "sourceName": "contracts/interfaces/IReserveInterestRateStrategy.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../protocol/libraries/types/DataTypes.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IReserveInterestRateStrategy"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\protocol\\pool\\PoolStorage.sol": {
+      "lastModificationDate": 1689259484102,
+      "contentHash": "c7edc6181f834f4fccd3f5784752f6a5",
+      "sourceName": "contracts/protocol/pool/PoolStorage.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../libraries/configuration/UserConfiguration.sol",
+        "../libraries/configuration/ReserveConfiguration.sol",
+        "../libraries/logic/ReserveLogic.sol",
+        "../libraries/types/DataTypes.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "PoolStorage"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\protocol\\pool\\Pool.sol": {
+      "lastModificationDate": 1689259484101,
+      "contentHash": "6fb6f9b1e3272ac4fd2c4bc3a476365e",
+      "sourceName": "contracts/protocol/pool/Pool.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../libraries/peko-upgradeability/VersionedInitializable.sol",
+        "../libraries/helpers/Errors.sol",
+        "../libraries/configuration/ReserveConfiguration.sol",
+        "../libraries/logic/PoolLogic.sol",
+        "../libraries/logic/ReserveLogic.sol",
+        "../libraries/logic/EModeLogic.sol",
+        "../libraries/logic/SupplyLogic.sol",
+        "../libraries/logic/BorrowLogic.sol",
+        "../libraries/logic/LiquidationLogic.sol",
+        "../libraries/types/DataTypes.sol",
+        "../libraries/logic/BridgeLogic.sol",
+        "../../interfaces/IERC20WithPermit.sol",
+        "../../interfaces/IPoolAddressesProvider.sol",
+        "../../interfaces/IPool.sol",
+        "../../interfaces/IACLManager.sol",
+        "./PoolStorage.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "Pool"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\protocol\\libraries\\logic\\PoolLogic.sol": {
+      "lastModificationDate": 1689259484097,
+      "contentHash": "833cc0019dfdd43c4ce6e09e0984f33c",
+      "sourceName": "contracts/protocol/libraries/logic/PoolLogic.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../../dependencies/gnosis/contracts/GPv2SafeERC20.sol",
+        "../../../dependencies/openzeppelin/contracts/Address.sol",
+        "../../../dependencies/openzeppelin/contracts/IERC20.sol",
+        "../../../interfaces/IAToken.sol",
+        "../configuration/ReserveConfiguration.sol",
+        "../helpers/Errors.sol",
+        "../math/WadRayMath.sol",
+        "../types/DataTypes.sol",
+        "./ReserveLogic.sol",
+        "./ValidationLogic.sol",
+        "./GenericLogic.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "PoolLogic"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\protocol\\libraries\\logic\\EModeLogic.sol": {
+      "lastModificationDate": 1689259484095,
+      "contentHash": "248db52079268b40d2c8e48d97ee4c26",
+      "sourceName": "contracts/protocol/libraries/logic/EModeLogic.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../../dependencies/gnosis/contracts/GPv2SafeERC20.sol",
+        "../../../dependencies/openzeppelin/contracts/IERC20.sol",
+        "../../../interfaces/IPriceOracleGetter.sol",
+        "../configuration/UserConfiguration.sol",
+        "../helpers/Errors.sol",
+        "../math/WadRayMath.sol",
+        "../math/PercentageMath.sol",
+        "../types/DataTypes.sol",
+        "./ValidationLogic.sol",
+        "./ReserveLogic.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "EModeLogic"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\protocol\\libraries\\logic\\SupplyLogic.sol": {
+      "lastModificationDate": 1689259484098,
+      "contentHash": "6a25e114a19c2337f15df6de9d1bbb60",
+      "sourceName": "contracts/protocol/libraries/logic/SupplyLogic.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../../dependencies/openzeppelin/contracts/IERC20.sol",
+        "../../../dependencies/gnosis/contracts/GPv2SafeERC20.sol",
+        "../../../interfaces/IAToken.sol",
+        "../helpers/Errors.sol",
+        "../configuration/UserConfiguration.sol",
+        "../types/DataTypes.sol",
+        "../math/WadRayMath.sol",
+        "../math/PercentageMath.sol",
+        "./ValidationLogic.sol",
+        "./ReserveLogic.sol",
+        "../configuration/ReserveConfiguration.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "SupplyLogic"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\protocol\\libraries\\logic\\BorrowLogic.sol": {
+      "lastModificationDate": 1689259484094,
+      "contentHash": "e83ab81b9b8e8c85fa9bb3aa1e8bdb21",
+      "sourceName": "contracts/protocol/libraries/logic/BorrowLogic.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../../dependencies/gnosis/contracts/GPv2SafeERC20.sol",
+        "../../../dependencies/openzeppelin/contracts/SafeCast.sol",
+        "../../../dependencies/openzeppelin/contracts/IERC20.sol",
+        "../../../interfaces/IStableDebtToken.sol",
+        "../../../interfaces/IVariableDebtToken.sol",
+        "../../../interfaces/IAToken.sol",
+        "../configuration/UserConfiguration.sol",
+        "../configuration/ReserveConfiguration.sol",
+        "../helpers/Helpers.sol",
+        "../types/DataTypes.sol",
+        "./ValidationLogic.sol",
+        "./ReserveLogic.sol",
+        "./IsolationModeLogic.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "BorrowLogic"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\protocol\\libraries\\logic\\LiquidationLogic.sol": {
+      "lastModificationDate": 1689259484097,
+      "contentHash": "2ff55b87ffb82b5855f577799382b697",
+      "sourceName": "contracts/protocol/libraries/logic/LiquidationLogic.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../../dependencies/openzeppelin/contracts//IERC20.sol",
+        "../../../dependencies/gnosis/contracts/GPv2SafeERC20.sol",
+        "../../libraries/math/PercentageMath.sol",
+        "../../libraries/math/WadRayMath.sol",
+        "../../libraries/helpers/Helpers.sol",
+        "../../libraries/types/DataTypes.sol",
+        "./ReserveLogic.sol",
+        "./ValidationLogic.sol",
+        "./GenericLogic.sol",
+        "./IsolationModeLogic.sol",
+        "./EModeLogic.sol",
+        "../../libraries/configuration/UserConfiguration.sol",
+        "../../libraries/configuration/ReserveConfiguration.sol",
+        "../../../interfaces/IAToken.sol",
+        "../../../interfaces/IStableDebtToken.sol",
+        "../../../interfaces/IVariableDebtToken.sol",
+        "../../../interfaces/IPriceOracleGetter.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "LiquidationLogic"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\protocol\\libraries\\logic\\BridgeLogic.sol": {
+      "lastModificationDate": 1689259484095,
+      "contentHash": "d14d570b2de21815bbf1a9c8b60f31ec",
+      "sourceName": "contracts/protocol/libraries/logic/BridgeLogic.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../../dependencies/openzeppelin/contracts/IERC20.sol",
+        "../../../dependencies/gnosis/contracts/GPv2SafeERC20.sol",
+        "../../../dependencies/openzeppelin/contracts/SafeCast.sol",
+        "../../../interfaces/IAToken.sol",
+        "../types/DataTypes.sol",
+        "../configuration/UserConfiguration.sol",
+        "../configuration/ReserveConfiguration.sol",
+        "../math/WadRayMath.sol",
+        "../math/PercentageMath.sol",
+        "../helpers/Errors.sol",
+        "./ValidationLogic.sol",
+        "./ReserveLogic.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "BridgeLogic"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\interfaces\\IERC20WithPermit.sol": {
+      "lastModificationDate": 1689259484078,
+      "contentHash": "0d77e7e4aa88560bb5459aa8b2614c30",
+      "sourceName": "contracts/interfaces/IERC20WithPermit.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../dependencies/openzeppelin/contracts/IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20WithPermit"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\protocol\\libraries\\logic\\ValidationLogic.sol": {
+      "lastModificationDate": 1689259484098,
+      "contentHash": "924b60585f5e5f9c6fea7476430e6796",
+      "sourceName": "contracts/protocol/libraries/logic/ValidationLogic.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../../dependencies/openzeppelin/contracts/IERC20.sol",
+        "../../../dependencies/openzeppelin/contracts/Address.sol",
+        "../../../dependencies/gnosis/contracts/GPv2SafeERC20.sol",
+        "../../../interfaces/IReserveInterestRateStrategy.sol",
+        "../../../interfaces/IStableDebtToken.sol",
+        "../../../interfaces/IScaledBalanceToken.sol",
+        "../../../interfaces/IPriceOracleGetter.sol",
+        "../../../interfaces/IAToken.sol",
+        "../../../interfaces/IPriceOracleSentinel.sol",
+        "../../../interfaces/IPoolAddressesProvider.sol",
+        "../../../dependencies/openzeppelin/contracts/IAccessControl.sol",
+        "../configuration/ReserveConfiguration.sol",
+        "../configuration/UserConfiguration.sol",
+        "../helpers/Errors.sol",
+        "../math/WadRayMath.sol",
+        "../math/PercentageMath.sol",
+        "../types/DataTypes.sol",
+        "./ReserveLogic.sol",
+        "./GenericLogic.sol",
+        "../../../dependencies/openzeppelin/contracts/SafeCast.sol",
+        "../../tokenization/base/IncentivizedERC20.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "ValidationLogic"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\protocol\\libraries\\logic\\GenericLogic.sol": {
+      "lastModificationDate": 1689259484096,
+      "contentHash": "7d7d18796a17cfee339956f314e50ca1",
+      "sourceName": "contracts/protocol/libraries/logic/GenericLogic.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../../dependencies/openzeppelin/contracts/IERC20.sol",
+        "../../../interfaces/IScaledBalanceToken.sol",
+        "../../../interfaces/IPriceOracleGetter.sol",
+        "../configuration/ReserveConfiguration.sol",
+        "../configuration/UserConfiguration.sol",
+        "../math/PercentageMath.sol",
+        "../math/WadRayMath.sol",
+        "../types/DataTypes.sol",
+        "./ReserveLogic.sol",
+        "./EModeLogic.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "GenericLogic"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\interfaces\\IPriceOracleSentinel.sol": {
+      "lastModificationDate": 1689259484081,
+      "contentHash": "96ab9503e96d34c8029ff085550da216",
+      "sourceName": "contracts/interfaces/IPriceOracleSentinel.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IPoolAddressesProvider.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IPriceOracleSentinel"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\dependencies\\openzeppelin\\contracts\\IAccessControl.sol": {
+      "lastModificationDate": 1689259484069,
+      "contentHash": "4ae42b4ec447fe40f4cab6eea3c7289c",
+      "sourceName": "contracts/dependencies/openzeppelin/contracts/IAccessControl.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "IAccessControl"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\protocol\\libraries\\helpers\\Helpers.sol": {
+      "lastModificationDate": 1689259484094,
+      "contentHash": "1664b79724792d29f36dea59dcbb89ca",
+      "sourceName": "contracts/protocol/libraries/helpers/Helpers.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../../dependencies/openzeppelin/contracts/IERC20.sol",
+        "../types/DataTypes.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Helpers"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\protocol\\libraries\\logic\\IsolationModeLogic.sol": {
+      "lastModificationDate": 1689259484096,
+      "contentHash": "12448c56166c8c6491cfe29366c31e40",
+      "sourceName": "contracts/protocol/libraries/logic/IsolationModeLogic.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../types/DataTypes.sol",
+        "../configuration/ReserveConfiguration.sol",
+        "../configuration/UserConfiguration.sol",
+        "../../../dependencies/openzeppelin/contracts/SafeCast.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "IsolationModeLogic"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\protocol\\configuration\\PriceOracleSentinel.sol": {
+      "lastModificationDate": 1689259484092,
+      "contentHash": "0620c77342d3899fd7e1019e84a73e57",
+      "sourceName": "contracts/protocol/configuration/PriceOracleSentinel.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../libraries/helpers/Errors.sol",
+        "../../interfaces/IPoolAddressesProvider.sol",
+        "../../interfaces/IPriceOracleSentinel.sol",
+        "../../interfaces/ISequencerOracle.sol",
+        "../../interfaces/IACLManager.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "PriceOracleSentinel"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\interfaces\\ISequencerOracle.sol": {
+      "lastModificationDate": 1689259484081,
+      "contentHash": "7609b66e79c3f48a62197d6427eeac94",
+      "sourceName": "contracts/interfaces/ISequencerOracle.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ISequencerOracle"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\mocks\\oracle\\SequencerOracle.sol": {
+      "lastModificationDate": 1689259484087,
+      "contentHash": "40a9d7ba041d3183c310087ccc5258cc",
+      "sourceName": "contracts/mocks/oracle/SequencerOracle.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../dependencies/openzeppelin/contracts/Ownable.sol",
+        "../../interfaces/ISequencerOracle.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "SequencerOracle"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\dependencies\\openzeppelin\\contracts\\Ownable.sol": {
+      "lastModificationDate": 1689259484070,
+      "contentHash": "8dfdf89bdd9ae23447c5c2a05dffa33b",
+      "sourceName": "contracts/dependencies/openzeppelin/contracts/Ownable.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Context.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\protocol\\configuration\\PoolAddressesProviderRegistry.sol": {
+      "lastModificationDate": 1689259484092,
+      "contentHash": "e7818c7b7ea909c98614895c0bea1119",
+      "sourceName": "contracts/protocol/configuration/PoolAddressesProviderRegistry.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../dependencies/openzeppelin/contracts/Ownable.sol",
+        "../libraries/helpers/Errors.sol",
+        "../../interfaces/IPoolAddressesProviderRegistry.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "PoolAddressesProviderRegistry"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\interfaces\\IPoolAddressesProviderRegistry.sol": {
+      "lastModificationDate": 1689259484079,
+      "contentHash": "91fe2548162ed13f957199a28f2852e2",
+      "sourceName": "contracts/interfaces/IPoolAddressesProviderRegistry.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IPoolAddressesProviderRegistry"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\protocol\\pool\\DefaultReserveInterestRateStrategy.sol": {
+      "lastModificationDate": 1689259484101,
+      "contentHash": "572516b40041f143adafca8465368cab",
+      "sourceName": "contracts/protocol/pool/DefaultReserveInterestRateStrategy.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../dependencies/openzeppelin/contracts/IERC20.sol",
+        "../libraries/math/WadRayMath.sol",
+        "../libraries/math/PercentageMath.sol",
+        "../libraries/types/DataTypes.sol",
+        "../libraries/helpers/Errors.sol",
+        "../../interfaces/IDefaultInterestRateStrategy.sol",
+        "../../interfaces/IReserveInterestRateStrategy.sol",
+        "../../interfaces/IPoolAddressesProvider.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "DefaultReserveInterestRateStrategy"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\interfaces\\IDefaultInterestRateStrategy.sol": {
+      "lastModificationDate": 1689259484077,
+      "contentHash": "32e817a932bc655dcd0e099f1ffc9c0e",
+      "sourceName": "contracts/interfaces/IDefaultInterestRateStrategy.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IReserveInterestRateStrategy.sol",
+        "./IPoolAddressesProvider.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IDefaultInterestRateStrategy"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\protocol\\libraries\\logic\\FlashLoanLogic.sol": {
+      "lastModificationDate": 1689259484096,
+      "contentHash": "313f695ea79ea5f6d4bcf0e291c389f4",
+      "sourceName": "contracts/protocol/libraries/logic/FlashLoanLogic.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../../dependencies/gnosis/contracts/GPv2SafeERC20.sol",
+        "../../../dependencies/openzeppelin/contracts/SafeCast.sol",
+        "../../../dependencies/openzeppelin/contracts/IERC20.sol",
+        "../../../interfaces/IAToken.sol",
+        "../../../flashloan/interfaces/IFlashLoanReceiver.sol",
+        "../../../flashloan/interfaces/IFlashLoanSimpleReceiver.sol",
+        "../../../interfaces/IPoolAddressesProvider.sol",
+        "../configuration/UserConfiguration.sol",
+        "../configuration/ReserveConfiguration.sol",
+        "../helpers/Errors.sol",
+        "../math/WadRayMath.sol",
+        "../math/PercentageMath.sol",
+        "../types/DataTypes.sol",
+        "./ValidationLogic.sol",
+        "./BorrowLogic.sol",
+        "./ReserveLogic.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "FlashLoanLogic"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\flashloan\\interfaces\\IFlashLoanReceiver.sol": {
+      "lastModificationDate": 1689259484075,
+      "contentHash": "2a528845fa71e18eadba4a18b82bdfe1",
+      "sourceName": "contracts/flashloan/interfaces/IFlashLoanReceiver.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../interfaces/IPoolAddressesProvider.sol",
+        "../../interfaces/IPool.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IFlashLoanReceiver"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\flashloan\\interfaces\\IFlashLoanSimpleReceiver.sol": {
+      "lastModificationDate": 1689259484076,
+      "contentHash": "ca0dc2a09ee9f3332309708e92c1d931",
+      "sourceName": "contracts/flashloan/interfaces/IFlashLoanSimpleReceiver.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../interfaces/IPoolAddressesProvider.sol",
+        "../../interfaces/IPool.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IFlashLoanSimpleReceiver"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\mocks\\tests\\FlashloanAttacker.sol": {
+      "lastModificationDate": 1689262821756,
+      "contentHash": "5adef3f5cc01682adb5c4483cc4685c2",
+      "sourceName": "contracts/mocks/tests/FlashloanAttacker.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../dependencies/openzeppelin/contracts/SafeMath.sol",
+        "../../dependencies/openzeppelin/contracts/IERC20.sol",
+        "../../dependencies/gnosis/contracts/GPv2SafeERC20.sol",
+        "../../dependencies/openzeppelin/contracts/SafeMath.sol",
+        "../../interfaces/IPoolAddressesProvider.sol",
+        "../../flashloan/base/FlashLoanSimpleReceiverBase.sol",
+        "../tokens/MintableERC20.sol",
+        "../../interfaces/IPool.sol",
+        "../../protocol/libraries/types/DataTypes.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "FlashloanAttacker"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\dependencies\\openzeppelin\\contracts\\SafeMath.sol": {
+      "lastModificationDate": 1689259484071,
+      "contentHash": "d3931885fa97e07a3f3325c2c29f01fd",
+      "sourceName": "contracts/dependencies/openzeppelin/contracts/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\flashloan\\base\\FlashLoanSimpleReceiverBase.sol": {
+      "lastModificationDate": 1689259484075,
+      "contentHash": "bdc23e4714b904625a05986136ca435c",
+      "sourceName": "contracts/flashloan/base/FlashLoanSimpleReceiverBase.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IFlashLoanSimpleReceiver.sol",
+        "../../interfaces/IPoolAddressesProvider.sol",
+        "../../interfaces/IPool.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.10"
+      ],
+      "artifacts": [
+        "FlashLoanSimpleReceiverBase"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\mocks\\tokens\\MintableERC20.sol": {
+      "lastModificationDate": 1689259484089,
+      "contentHash": "f81c0bd684b348f521edc03bd02ddfea",
+      "sourceName": "contracts/mocks/tokens/MintableERC20.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../dependencies/openzeppelin/contracts/ERC20.sol",
+        "../../interfaces/IERC20WithPermit.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "MintableERC20"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\dependencies\\openzeppelin\\contracts\\ERC20.sol": {
+      "lastModificationDate": 1689259484069,
+      "contentHash": "9369d69bd287819dfb8bb00a34f292f0",
+      "sourceName": "contracts/dependencies/openzeppelin/contracts/ERC20.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Context.sol",
+        "./IERC20.sol",
+        "./SafeMath.sol",
+        "./Address.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\mocks\\tokens\\MintableDelegationERC20.sol": {
+      "lastModificationDate": 1689259484089,
+      "contentHash": "def9fd418db69d9c0c63596a6fe2fced",
+      "sourceName": "contracts/mocks/tokens/MintableDelegationERC20.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../dependencies/openzeppelin/contracts/ERC20.sol",
+        "../../interfaces/IDelegationToken.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "MintableDelegationERC20"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\dependencies\\openzeppelin\\upgradeability\\InitializableAdminUpgradeabilityProxy.sol": {
+      "lastModificationDate": 1689259484073,
+      "contentHash": "e66d995e900d3a24ea3664e0db1c1a57",
+      "sourceName": "contracts/dependencies/openzeppelin/upgradeability/InitializableAdminUpgradeabilityProxy.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./BaseAdminUpgradeabilityProxy.sol",
+        "./InitializableUpgradeabilityProxy.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "InitializableAdminUpgradeabilityProxy"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\dependencies\\openzeppelin\\upgradeability\\BaseAdminUpgradeabilityProxy.sol": {
+      "lastModificationDate": 1689259484072,
+      "contentHash": "ac929f6e654e4a992534ebe0d9c28203",
+      "sourceName": "contracts/dependencies/openzeppelin/upgradeability/BaseAdminUpgradeabilityProxy.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./UpgradeabilityProxy.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "BaseAdminUpgradeabilityProxy"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\dependencies\\openzeppelin\\upgradeability\\UpgradeabilityProxy.sol": {
+      "lastModificationDate": 1689259484073,
+      "contentHash": "6dd3ca8d6516d1b20b9d0410ae78e733",
+      "sourceName": "contracts/dependencies/openzeppelin/upgradeability/UpgradeabilityProxy.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./BaseUpgradeabilityProxy.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "UpgradeabilityProxy"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\dependencies\\openzeppelin\\upgradeability\\AdminUpgradeabilityProxy.sol": {
+      "lastModificationDate": 1689259484071,
+      "contentHash": "1012aee1387242cc1b491f9c01f289d6",
+      "sourceName": "contracts/dependencies/openzeppelin/upgradeability/AdminUpgradeabilityProxy.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./BaseAdminUpgradeabilityProxy.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "AdminUpgradeabilityProxy"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\protocol\\configuration\\PoolAddressesProvider.sol": {
+      "lastModificationDate": 1689259484092,
+      "contentHash": "f4986a7f28544191357487c7e81d4050",
+      "sourceName": "contracts/protocol/configuration/PoolAddressesProvider.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../dependencies/openzeppelin/contracts/Ownable.sol",
+        "../../interfaces/IPoolAddressesProvider.sol",
+        "../libraries/peko-upgradeability/InitializableImmutableAdminUpgradeabilityProxy.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "PoolAddressesProvider"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\dependencies\\openzeppelin\\contracts\\SafeERC20.sol": {
+      "lastModificationDate": 1689259484071,
+      "contentHash": "ede19b1aa9874598f1571d4438cebe15",
+      "sourceName": "contracts/dependencies/openzeppelin/contracts/SafeERC20.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC20.sol",
+        "./Address.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SafeERC20"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\mocks\\flashloan\\MockSimpleFlashLoanReceiver.sol": {
+      "lastModificationDate": 1689259484084,
+      "contentHash": "e75aa7c74501215cecc09e15e35e8a9d",
+      "sourceName": "contracts/mocks/flashloan/MockSimpleFlashLoanReceiver.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../dependencies/openzeppelin/contracts/SafeMath.sol",
+        "../../dependencies/openzeppelin/contracts/IERC20.sol",
+        "../../dependencies/gnosis/contracts/GPv2SafeERC20.sol",
+        "../../dependencies/openzeppelin/contracts/SafeMath.sol",
+        "../../interfaces/IPoolAddressesProvider.sol",
+        "../../flashloan/base/FlashLoanSimpleReceiverBase.sol",
+        "../tokens/MintableERC20.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "MockFlashLoanSimpleReceiver"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\mocks\\flashloan\\MockFlashLoanReceiver.sol": {
+      "lastModificationDate": 1689259484084,
+      "contentHash": "ebf6f9a8200f060018781c405554edd3",
+      "sourceName": "contracts/mocks/flashloan/MockFlashLoanReceiver.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../dependencies/openzeppelin/contracts/IERC20.sol",
+        "../../dependencies/gnosis/contracts/GPv2SafeERC20.sol",
+        "../../interfaces/IPoolAddressesProvider.sol",
+        "../../flashloan/base/FlashLoanReceiverBase.sol",
+        "../tokens/MintableERC20.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "MockFlashLoanReceiver"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\flashloan\\base\\FlashLoanReceiverBase.sol": {
+      "lastModificationDate": 1689259484075,
+      "contentHash": "1cba84bd38e351db61f7f23936caf30e",
+      "sourceName": "contracts/flashloan/base/FlashLoanReceiverBase.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IFlashLoanReceiver.sol",
+        "../../interfaces/IPoolAddressesProvider.sol",
+        "../../interfaces/IPool.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.10"
+      ],
+      "artifacts": [
+        "FlashLoanReceiverBase"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\dependencies\\openzeppelin\\contracts\\AccessControl.sol": {
+      "lastModificationDate": 1689259484068,
+      "contentHash": "1440402733d415b7a8e944cc68044a3e",
+      "sourceName": "contracts/dependencies/openzeppelin/contracts/AccessControl.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IAccessControl.sol",
+        "./Context.sol",
+        "./Strings.sol",
+        "./ERC165.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "AccessControl"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\dependencies\\openzeppelin\\contracts\\Strings.sol": {
+      "lastModificationDate": 1689259484071,
+      "contentHash": "02755bc3f9bb26bbe3079cf14f2b05f2",
+      "sourceName": "contracts/dependencies/openzeppelin/contracts/Strings.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "Strings"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\dependencies\\openzeppelin\\contracts\\ERC165.sol": {
+      "lastModificationDate": 1689259484069,
+      "contentHash": "22fc8f3cb3517307bfad3104a72deca3",
+      "sourceName": "contracts/dependencies/openzeppelin/contracts/ERC165.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC165.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "ERC165"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\dependencies\\openzeppelin\\contracts\\IERC165.sol": {
+      "lastModificationDate": 1689259484070,
+      "contentHash": "e04e5b6f7e6d56a1a8737f4879099653",
+      "sourceName": "contracts/dependencies/openzeppelin/contracts/IERC165.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "IERC165"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\protocol\\configuration\\ACLManager.sol": {
+      "lastModificationDate": 1689259484092,
+      "contentHash": "734126dc34143eab142555ebf0150f3e",
+      "sourceName": "contracts/protocol/configuration/ACLManager.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../dependencies/openzeppelin/contracts/AccessControl.sol",
+        "../../interfaces/IPoolAddressesProvider.sol",
+        "../../interfaces/IACLManager.sol",
+        "../libraries/helpers/Errors.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "ACLManager"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\misc\\L2Encoder.sol": {
+      "lastModificationDate": 1689259484082,
+      "contentHash": "cd679ca83120aa92ea2222622ae1b192",
+      "sourceName": "contracts/misc/L2Encoder.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../dependencies/openzeppelin/contracts/SafeCast.sol",
+        "../interfaces/IPool.sol",
+        "../protocol/libraries/types/DataTypes.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "L2Encoder"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\mocks\\helpers\\MockIncentivesController.sol": {
+      "lastModificationDate": 1689259484085,
+      "contentHash": "287130bc7ee1d91c68deca233810291d",
+      "sourceName": "contracts/mocks/helpers/MockIncentivesController.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../interfaces/IPekoIncentivesController.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "MockIncentivesController"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\mocks\\helpers\\MockReserveConfiguration.sol": {
+      "lastModificationDate": 1689259484086,
+      "contentHash": "a3d0b5973612988272ca8ffe69f90bde",
+      "sourceName": "contracts/mocks/helpers/MockReserveConfiguration.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../protocol/libraries/configuration/ReserveConfiguration.sol",
+        "../../protocol/libraries/types/DataTypes.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "MockReserveConfiguration"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\mocks\\tests\\WadRayMathWrapper.sol": {
+      "lastModificationDate": 1689259484088,
+      "contentHash": "7b743a2658a85371b9b934a3f79a6ae1",
+      "sourceName": "contracts/mocks/tests/WadRayMathWrapper.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../protocol/libraries/math/WadRayMath.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "WadRayMathWrapper"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\mocks\\tests\\MockReserveInterestRateStrategy.sol": {
+      "lastModificationDate": 1689259484088,
+      "contentHash": "b2d188448c32b211fe09e323647ce249",
+      "sourceName": "contracts/mocks/tests/MockReserveInterestRateStrategy.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../interfaces/IDefaultInterestRateStrategy.sol",
+        "../../interfaces/IPoolAddressesProvider.sol",
+        "../../protocol/libraries/math/WadRayMath.sol",
+        "../../protocol/libraries/types/DataTypes.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "MockReserveInterestRateStrategy"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\misc\\ZeroReserveInterestRateStrategy.sol": {
+      "lastModificationDate": 1689259484083,
+      "contentHash": "eede1df2c776c13a68f5fdbccaa8d637",
+      "sourceName": "contracts/misc/ZeroReserveInterestRateStrategy.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../protocol/libraries/types/DataTypes.sol",
+        "../interfaces/IDefaultInterestRateStrategy.sol",
+        "../interfaces/IReserveInterestRateStrategy.sol",
+        "../interfaces/IPoolAddressesProvider.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ZeroReserveInterestRateStrategy"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\deployments\\ReservesSetupHelper.sol": {
+      "lastModificationDate": 1689259484074,
+      "contentHash": "84729dd9fddb41d518d24968546281ee",
+      "sourceName": "contracts/deployments/ReservesSetupHelper.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../protocol/pool/PoolConfigurator.sol",
+        "../dependencies/openzeppelin/contracts/Ownable.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "ReservesSetupHelper"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\mocks\\upgradeability\\MockInitializableImplementation.sol": {
+      "lastModificationDate": 1689259484090,
+      "contentHash": "ad5d461ae594a69eb4ad23f2c1341ef7",
+      "sourceName": "contracts/mocks/upgradeability/MockInitializableImplementation.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../protocol/libraries/peko-upgradeability/VersionedInitializable.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "MockInitializableFromConstructorImple",
+        "MockInitializableImple",
+        "MockInitializableImpleV2",
+        "MockReentrantInitializableImple"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\protocol\\pool\\L2Pool.sol": {
+      "lastModificationDate": 1689259484101,
+      "contentHash": "39280e51ab3d016c699fbfb3f8a45328",
+      "sourceName": "contracts/protocol/pool/L2Pool.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Pool.sol",
+        "../../interfaces/IPoolAddressesProvider.sol",
+        "../../interfaces/IL2Pool.sol",
+        "../libraries/logic/CalldataLogic.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.10"
+      ],
+      "artifacts": [
+        "L2Pool"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\interfaces\\IL2Pool.sol": {
+      "lastModificationDate": 1689259484078,
+      "contentHash": "2ca353262b38df4752fc1692766e8a38",
+      "sourceName": "contracts/interfaces/IL2Pool.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IL2Pool"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\protocol\\libraries\\logic\\CalldataLogic.sol": {
+      "lastModificationDate": 1689259484095,
+      "contentHash": "d450d12cb9e3afdee2c9d8a7b96f65e9",
+      "sourceName": "contracts/protocol/libraries/logic/CalldataLogic.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "CalldataLogic"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\mocks\\helpers\\MockL2Pool.sol": {
+      "lastModificationDate": 1689259484085,
+      "contentHash": "07a62a01c37ed115fdc27ae0a1957731",
+      "sourceName": "contracts/mocks/helpers/MockL2Pool.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../interfaces/IPoolAddressesProvider.sol",
+        "../../protocol/pool/L2Pool.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "MockL2Pool"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\mocks\\helpers\\MockPool.sol": {
+      "lastModificationDate": 1689259484085,
+      "contentHash": "e1293ca3badf8b3e80dbcc7c44cc572b",
+      "sourceName": "contracts/mocks/helpers/MockPool.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../interfaces/IPoolAddressesProvider.sol",
+        "../../protocol/pool/Pool.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "MockPool",
+        "MockPoolInherited"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\mocks\\upgradeability\\MockAToken.sol": {
+      "lastModificationDate": 1689259484090,
+      "contentHash": "4b1e2128497b42d790571928e2cecce5",
+      "sourceName": "contracts/mocks/upgradeability/MockAToken.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../protocol/tokenization/AToken.sol",
+        "../../interfaces/IPool.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "MockAToken"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\mocks\\tokens\\MockATokenRepayment.sol": {
+      "lastModificationDate": 1689259484089,
+      "contentHash": "4314fc436531114d811b2566fc998e07",
+      "sourceName": "contracts/mocks/tokens/MockATokenRepayment.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../protocol/tokenization/AToken.sol",
+        "../../interfaces/IPool.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "MockATokenRepayment"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\mocks\\upgradeability\\MockVariableDebtToken.sol": {
+      "lastModificationDate": 1689259484091,
+      "contentHash": "8846c2916fe2564427d9abc029a3521e",
+      "sourceName": "contracts/mocks/upgradeability/MockVariableDebtToken.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../protocol/tokenization/VariableDebtToken.sol",
+        "../../interfaces/IPool.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "MockVariableDebtToken"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\mocks\\upgradeability\\MockStableDebtToken.sol": {
+      "lastModificationDate": 1689259484091,
+      "contentHash": "ea02d4e697953c51c0798ac12f9ddfbe",
+      "sourceName": "contracts/mocks/upgradeability/MockStableDebtToken.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../protocol/tokenization/StableDebtToken.sol",
+        "../../interfaces/IPool.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "MockStableDebtToken"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\dependencies\\openzeppelin\\upgradeability\\Initializable.sol": {
+      "lastModificationDate": 1689259484072,
+      "contentHash": "6f74ea8a2c698358bd87a71eaf0e968d",
+      "sourceName": "contracts/dependencies/openzeppelin/upgradeability/Initializable.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "Initializable"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\dependencies\\weth\\WETH9.sol": {
+      "lastModificationDate": 1689259484074,
+      "contentHash": "01a3151d6721b08df72cd415491effa4",
+      "sourceName": "contracts/dependencies/weth/WETH9.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "WETH9"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\mocks\\tokens\\WETH9Mocked.sol": {
+      "lastModificationDate": 1689259484090,
+      "contentHash": "2ff5c9ddea116e41dc9296591d020552",
+      "sourceName": "contracts/mocks/tokens/WETH9Mocked.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../dependencies/weth/WETH9.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "WETH9Mocked"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\interfaces\\IPriceOracle.sol": {
+      "lastModificationDate": 1689259484080,
+      "contentHash": "1fad7704c3ca912e95194df9f8b24dc8",
+      "sourceName": "contracts/interfaces/IPriceOracle.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IPriceOracle"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\mocks\\oracle\\PriceOracle.sol": {
+      "lastModificationDate": 1689259484087,
+      "contentHash": "53892e40f9923d9047b2833b42f5b4bf",
+      "sourceName": "contracts/mocks/oracle/PriceOracle.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../interfaces/IPriceOracle.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "PriceOracle"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\misc\\interfaces\\IWETH.sol": {
+      "lastModificationDate": 1689259484083,
+      "contentHash": "04ee82a7993ac887d3119476ef5f1041",
+      "sourceName": "contracts/misc/interfaces/IWETH.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IWETH"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\mocks\\helpers\\MockPeripheryContract.sol": {
+      "lastModificationDate": 1689259484085,
+      "contentHash": "eab272cb13b39d75e6d3072fd2a089b1",
+      "sourceName": "contracts/mocks/helpers/MockPeripheryContract.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "MockPeripheryContractV1",
+        "MockPeripheryContractV2"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\mocks\\helpers\\SelfDestructTransfer.sol": {
+      "lastModificationDate": 1689259484086,
+      "contentHash": "1b466d74d325a56259c9b11661d766c1",
+      "sourceName": "contracts/mocks/helpers/SelfDestructTransfer.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "SelfdestructTransfer"
+      ]
+    },
+    "D:\\HIG\\Task\\Freelancer-Contract Dev\\peko-protocol-contract\\contracts\\mocks\\oracle\\CLAggregators\\MockAggregator.sol": {
+      "lastModificationDate": 1689259484087,
+      "contentHash": "605e5894f439074e45bdd8365e270ef8",
+      "sourceName": "contracts/mocks/oracle/CLAggregators/MockAggregator.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000
+          },
+          "evmVersion": "berlin",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "MockAggregator"
+      ]
+    }
+  }
+}

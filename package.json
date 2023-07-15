@@ -1,0 +1,49 @@
+{
+  "name": "peko-protocol-contract",
+  "version": "1.0.0",
+  "description": "The smart contract of Peko lending protocol",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mr-new-0509/peko-protocol-contract.git"
+  },
+  "keywords": [
+    "peko",
+    "lending",
+    "protocol",
+    "solidity"
+  ],
+  "author": "Peko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mr-new-0509/peko-protocol-contract/issues"
+  },
+  "homepage": "https://github.com/mr-new-0509/peko-protocol-contract#readme",
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@aave/core-v3": "^1.19.0",
+    "@aave/deploy-v3": "^1.55.3",
+    "@aave/periphery-v3": "^2.4.1",
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.0",
+    "@nomicfoundation/hardhat-ethers": "^3.0.0",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.0",
+    "@nomicfoundation/hardhat-verify": "^1.0.3",
+    "@typechain/ethers-v6": "^0.4.0",
+    "@typechain/hardhat": "^8.0.0",
+    "@types/chai": "^4.2.0",
+    "@types/mocha": ">=9.1.0",
+    "chai": "^4.2.0",
+    "hardhat": "^2.17.0",
+    "hardhat-gas-reporter": "^1.0.8",
+    "solidity-coverage": "^0.8.1",
+    "ts-node": ">=8.0.0",
+    "typechain": "^8.2.0",
+    "typescript": ">=4.5.0"
+  }
+}
